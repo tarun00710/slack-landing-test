@@ -117,3 +117,42 @@
   .rotate {
     transform: rotate(180deg);
   }
+
+  .searchBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .searchInput {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  .searchBox .searchBtn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .closeSearch {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .closeSearch:hover {
+    color: black;
+  }
+  
