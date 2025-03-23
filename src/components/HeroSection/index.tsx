@@ -1,4 +1,9 @@
 import styles from "./index.module.css";
+import partnerIcon1 from '../../assets/logoipsum-297.svg'
+import partnerIcon2 from '../../assets/logoipsum-341.svg'
+import partnerIcon3 from '../../assets/logoipsum-346.svg'
+import partnerIcon4 from '../../assets/logoipsum-351.svg'
+import googleIcon from "../../assets/googleIcon.webp"
 
 const HeroSection = () => {
   return (
@@ -14,7 +19,8 @@ const HeroSection = () => {
           <button className={styles.tryFreeBtn}>TRY FOR FREE</button>
           <button className={styles.googleBtn}>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+              loading="lazy"
+              src={googleIcon}
               alt="Google Logo"
               className={styles.googleIcon}
             />
@@ -25,6 +31,7 @@ const HeroSection = () => {
     
       <div className={styles.right}>
           <img
+            loading="lazy"
             src="https://picsum.photos/500/300"
             alt="Slack preview"
             className={styles.heroImage}
@@ -37,17 +44,18 @@ const HeroSection = () => {
 
     <div className={styles.partnersSection}>
         <div className={styles.partners}>
-          <img src="https://via.placeholder.com/100x50" alt="FOX Logo" />
-          <img src="https://via.placeholder.com/100x50" alt="Lonely Planet Logo" />
-          <img src="https://via.placeholder.com/100x50" alt="Intuit Logo" />
-          <img src="https://via.placeholder.com/100x50" alt="Airbnb Logo" />
-          <img src="https://via.placeholder.com/100x50" alt="Spotify Logo" />
+          <img src={partnerIcon1} alt="FOX Logo" />
+          <img src={partnerIcon2} alt="Lonely Planet Logo" />
+          <img src={partnerIcon3} alt="Intuit Logo" />
+          <img src={partnerIcon4} alt="Airbnb Logo" />
+          <img src={partnerIcon1} alt="Spotify Logo" />
         </div>
     </div>
     
     <div className={`${styles.heroSection}`}>
             <div className={styles.right}>
                 <img
+                    loading="lazy"
                     src="https://picsum.photos/500/300"
                     alt="Team Collaboration"
                     className={styles.heroImage}
