@@ -1,4 +1,16 @@
 :root {
-
+  --primary-color: #631F66;
+  --secondary-color:#4A164B;
+  --page-padding: 10%;
+  --primary-font: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+body{
+  font-family: var(--primary-font);
 }
 
+.container {
+  width: 80%; 
+  margin: 0 auto;
+  padding: 0 var(--page-padding);
+}

@@ -1,0 +1,119 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    background-color: white;
+  }
+  
+  .navLeft {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+  
+  .navLinks {
+    display: flex;  
+    gap:24px;
+    list-style: none;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .navLinks a:hover {
+    color: var(--primary-color);
+  }
+  .navLink{
+    text-decoration: none;
+    color: black;
+    /* padding: 0 10px; */
+  }
+  
+  .navRight {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .searchBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchBtn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+  }
+  
+  .btn {
+    padding: 12px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .btnOutline {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  .btnOutline:hover {
+    border: 1.5px solid var(--secondary-color);
+  }
+  
+  .btnPrimary {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+  }
+  
+  .btnPrimary:hover {
+    background-color: var(--primary-color);
+  }
+  .navText {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+  }
+  .navItem {
+    position: relative; 
+    cursor: pointer;
+  }
+
+  .dropdownContainer {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 180px;
+    z-index: 100;
+  }
+  
+  .dropdownMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .rotate {
+    transform: rotate(180deg);
+  }

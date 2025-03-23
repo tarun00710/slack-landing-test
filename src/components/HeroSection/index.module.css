@@ -1,0 +1,131 @@
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0; 
+    width: 100%;
+    max-width: 90%; 
+    margin: auto;
+    gap: 40px;
+}
+
+  
+  .left {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .left h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .left p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .tryFreeBtn, .googleBtn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .tryFreeBtn {
+    background: var(--primary-color);
+    color: white;
+  }
+  
+  .googleBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+  
+  .googleIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .imageContainer {
+    position: relative;
+  }
+  
+  .heroImage {
+    width: 100%;
+    /* max-width: 500px; */
+    border-radius: 10px;
+  }
+  
+  .emoji {
+    position: absolute;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .topLeft { top: -10px; left: -10px; }
+  .topRight { top: -10px; right: -10px; }
+  .middle { bottom: 20px; left: 50% }
+  
+
+  .watchVideoBtn {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+
+  .partnersSection{
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .partners {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .partners img {
+    flex: 1;
+    max-width: 150px; 
+    height: 50px;
+    object-fit: contain;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .partners img:hover {
+    opacity: 1;
+  }
+  
